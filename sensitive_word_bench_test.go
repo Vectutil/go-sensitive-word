@@ -16,7 +16,7 @@ type Data struct {
 var (
 	dfa       *DFA
 	benchData Data
-	text      = strings.Repeat("今夜总会想起你夜总", 10) + "最淫官员"
+	text      = strings.Repeat("今夜总会想起你夜总", 10) + "黄色漫画"
 )
 
 func init() {
@@ -49,11 +49,11 @@ func BenchmarkDFAFilterAll(b *testing.B) {
 		fmt.Println("捕获到错误:", err)
 	}
 	//cmd: go test -bench=BenchmarkDFAFilterAll
-	//BenchmarkDFAFilterAll-12        捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
+	//BenchmarkDFAFilterAll-12        捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
 	//1000000000               0.0000965 ns/op
 	//PASS
 	//ok      sensitive_word  0.186s
@@ -68,11 +68,11 @@ func BenchmarkDFAFilterForr(b *testing.B) {
 		}
 	}
 	// cmd: go test -bench=BenchmarkDFAFilterForr
-	//BenchmarkDFAFilterAll-12        捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
-	//捕获到错误: 包含敏感词: 最淫官员
+	//BenchmarkDFAFilterAll-12        捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
+	//捕获到错误: 包含敏感词: 黄色漫画
 	//1000000000               0.0000965 ns/op
 	//PASS
 	//ok      sensitive_word  0.186s
