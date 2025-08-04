@@ -1,5 +1,5 @@
 # go-sensitive-word
-English | [简体中文](https://github.com/linbe-ff/go-sensitive-word/blob/main/README_zh_cn.md)
+English | [简体中文](README_zh_cn.md)
 ```
 Specific usage:
     When starting a project, first load sensitive words from the database or file into memory, and then you can use sensitive word detection
