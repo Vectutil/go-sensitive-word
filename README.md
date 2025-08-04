@@ -22,8 +22,8 @@ Specific usage:
 2、When the string is "今夜总会想起你夜总黄色漫画" and repeated 10 times using strings.Repeat, the performance is as follows:
         text      = strings.Repeat("今夜总会想起你夜总", 10) + "黄色漫画"
 ```
-1、When the string is "今夜总会想起你夜总最淫官员" and repeated 10,000 times using strings.Repeat, the performance is as follows:
-    text      = strings.Repeat("今夜总会想起你夜总", 10000) + "最淫官员"
+1、When the string is "今夜总会想起你夜总黄色漫画" and repeated 10,000 times using strings.Repeat, the performance is as follows:
+    text      = strings.Repeat("今夜总会想起你夜总", 10000) + "黄色漫画"
     
     DFA Algorithm Performance BenchmarkDFAFilterAll
        BenchmarkDFAFilterAll           1000000000               0.002005 ns/op
@@ -33,8 +33,8 @@ Specific usage:
        BenchmarkDFAFilterForr         1        1249947300 ns/op
        BenchmarkDFAFilterForr-2       1        1291353500 ns/op    
    
-2、When the string is "今夜总会想起你夜总最淫官员" and repeated 10 times using strings.Repeat, the performance is as follows:
-        text      = strings.Repeat("今夜总会想起你夜总", 10) + "最淫官员"
+2、When the string is "今夜总会想起你夜总黄色漫画" and repeated 10 times using strings.Repeat, the performance is as follows:
+        text      = strings.Repeat("今夜总会想起你夜总", 10) + "黄色漫画"
         
     DFA Algorithm Performance BenchmarkDFAFilterAll（op单次时间忽略不计） 
         BenchmarkDFAFilterAll-2         1000000000
