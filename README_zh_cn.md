@@ -8,8 +8,8 @@
 
 ### 性能
 ```
-1、当字符串为：今夜总会想起你夜总最淫官员，并且用strings.Repeat重复10000次的性能如下
-    text      = strings.Repeat("今夜总会想起你夜总", 10000) + "最淫官员"
+1、当字符串为：今夜总会想起你夜总黄色漫画，并且用strings.Repeat重复10000次的性能如下
+    text      = strings.Repeat("今夜总会想起你夜总", 10000) + "黄色漫画"
     
     DFA 算法性能 BenchmarkDFAFilterAll
        BenchmarkDFAFilterAll           1000000000               0.002005 ns/op
@@ -17,20 +17,10 @@
     
     普通遍历性能 BenchmarkDFAFilterForr
        BenchmarkDFAFilterForr         1        1249947300 ns/op
-       BenchmarkDFAFilterForr-2       1        1291353500 ns/op    
+       BenchmarkDFAFilterForr-2       1        1291353500 ns/op   
    
-2、当字符串为：今夜总会想起你夜总最淫官员，并且用strings.Repeat重复10次的性能如下
-        text      = strings.Repeat("今夜总会想起你夜总", 10) + "最淫官员"
-        
-    DFA 算法性能 BenchmarkDFAFilterAll（op单次时间忽略不计） 
-        BenchmarkDFAFilterAll-2         1000000000
-    
-    普通遍历性能 BenchmarkDFAFilterForr
-        BenchmarkDFAFilterForr-2        1000000000               0.001047 ns/op
-    
-    
-结论 
-    使用DFA算法性能更好，特别是在成文本匹配中速度遥遥领先。
+2、当字符串为：今夜总会想起你夜总黄色漫画，并且用strings.Repeat重复10次的性能如下
+        text      = strings.Repeat("今夜总会想起你夜总", 10) + "黄色漫画"
 ```
 ### 包含功能
 ```
